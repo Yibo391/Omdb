@@ -1,4 +1,4 @@
-import { SEARCH_EPISODES_REQUEST, SEARCH_EPISODES_SUCCESS, SEARCH_EPISODES_FAILURE } from 'redux/actions';
+import { SEARCH_EPISODES_REQUEST, SEARCH_EPISODES_SUCCESS, SEARCH_EPISODES_FAILURE } from '../actions';
 
 export const initialState = {loading: false, data: [], error: null};
 

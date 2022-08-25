@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SearchShow, Episodes } from 'containers';
+import { SearchShow, Episodes } from '../containers';
 
 class App extends Component {
   render() {

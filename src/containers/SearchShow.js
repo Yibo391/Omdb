@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import { addEpisode, setEpisodes, searchEpisodes, searchEpisodesThunk } from 'redux/actions';
-import SearchShow from 'components/SearchShow';
+import { addEpisode, setEpisodes, searchEpisodes, searchEpisodesThunk } from '../redux/actions';
+import SearchShow from '../components/SearchShow';
 
 const mapDispatchToProps = dispatch => {
   return {

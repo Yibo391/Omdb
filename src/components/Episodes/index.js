@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import ShowEpisode from 'components/ShowEpisode';
-import Spinner from 'components/Spinner';
-import Error from 'components/Error';
+import ShowEpisode from '../ShowEpisode';
+import Spinner from '../Spinner';
+import Error from '../Error';
 
 
 class Episodes extends Component {

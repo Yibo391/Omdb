@@ -1,5 +1,5 @@
-import { setEpisodes, showError, hideSpinner, searchedParam, emptyEpisode, displaySpinner } from 'redux/actions';
-import * as api from 'api';
+import { setEpisodes, showError, hideSpinner, searchedParam, emptyEpisode, displaySpinner } from '../redux/actions';
+import * as api from '../api';
 
 export const searchEpisodeApiMiddleware = (store) => (next) => (action) => {
   if (!action.meta || action.meta.type !== 'api_searchEpisode')

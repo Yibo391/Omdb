@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Episodes from 'components/Episodes';
+import Episodes from '../components/Episodes';
 
 const mapStateToProps = state => {
   return {

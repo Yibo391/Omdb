@@ -1,5 +1,5 @@
 import { CALL_API } from 'redux-api-middleware';
-import * as api from 'api';
+import * as api from '../../api';
 
 export const addEpisode = (body) => ({
   type: 'ADD_EPISODE',
