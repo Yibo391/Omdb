@@ -19,7 +19,7 @@ This project is a TV show search application built using React and Redux. It use
 ## Installation and Usage
 
 1. Clone the project to your local machine:
-git clone https://github.com/your-username/omdb-project.git
+git clone git@github.com:Yibo391/Omdb.git
 
 
 2. Navigate to the project directory:
